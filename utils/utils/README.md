@@ -1,11 +1,11 @@
-# `imooc-cli-dev`
+# `utils`
 
 > TODO: description
 
 ## Usage
 
 ```
-const imoocCliDev = require('imooc-cli-dev');
+const utils = require('utils');
 
 // TODO: DEMONSTRATE API
 ```
