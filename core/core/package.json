@@ -6,8 +6,8 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
-  "bin":{
-    "imooc-cli-dev":"bin/index.js"
+  "bin": {
+    "imooc-cli-dev": "bin/index.js"
   },
   "directories": {
     "lib": "lib",
@@ -23,6 +23,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@imooc-cli/utils": "file:../../utils/utils"
+    "@imooc-cli/utils": "file:../../utils/utils",
+    "@imooc-cli/log": "file:../../utils/log"
   }
 }

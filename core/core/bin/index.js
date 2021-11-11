@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 
-const utils = require('@imooc-cli/utils')
-utils()
-console.log('hello imooc')
+const importLocal = require('import-local');
+
+
+if(importLocal(__filename)){
+  require('npmlog').info('cli','正在使用 imooc-cli本地版本')
+}else{
+  require('../lib')(process.argv.slice(2))
+}
